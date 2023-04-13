@@ -5,6 +5,11 @@ import { string, z } from 'zod'
 import { checkSessionIdExist } from '../middlewares/check-session-id-exists'
 
 export async function transactionsRoutes(app: FastifyInstance) {
+  // // criar middleware global pra todas as rotas desse plugin
+  // app.addHook('preHandler', (request, reply) => {
+  //   console.log(`[${request.method}] ${request.url}`)
+  // })
+
   app.get(
     '/',
     {

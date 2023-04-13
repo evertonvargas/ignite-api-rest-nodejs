@@ -7,8 +7,5 @@ Requisitos Funcionais(RF)
 
 Regras de Negócios(RN)
 [X] A transação pode do tipo crédito que somará ao valor total, ou débito que será subtraído;
-[] Deve ser possível identificar o usuário entre as requisições;
-[] O usuário só pode visualizar transações que ele criou;
-
-Regras Não Funcionais(RNF)
-[] Será criado ao longo da aplicação (tecnologias que serão utilizadas);
+[X] Deve ser possível identificar o usuário entre as requisições;
+[X] O usuário só pode visualizar transações que ele criou;
